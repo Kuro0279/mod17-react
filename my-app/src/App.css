@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+
+html {
+    width: 100vw;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.amostra {
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardProduto {
+    min-width: 150px;
+    max-width: 250px;
+    border: 2px;
+    border-style: dotted;
+    padding: 10px;
+    margin: 15px;
+}
