@@ -10,6 +10,12 @@ input {
     margin-bottom: 10px;
 }
 
+.carregando {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 .amostra {
     display: flex;
     max-width: 100vw;
@@ -24,4 +30,22 @@ input {
     border-style: dotted;
     padding: 10px;
     margin: 15px;
+}
+
+.textoCard {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.nome {
+    font-weight: bolder;
+}
+.descricao {
+    font-style: italic;
+}
+.imagemCard {
+    width: 100%;
 }
